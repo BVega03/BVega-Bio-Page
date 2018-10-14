@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
@@ -23,7 +24,7 @@ h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 p:last-child {
@@ -52,15 +53,14 @@ h3 {
 
 /* header */
 
-#masthead {
+
+.navbar {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
-  border-bottom: 2px solid #cccccc;
 }
 
 #logo {
@@ -79,13 +79,13 @@ h3 {
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 0;
 }
 
 nav a {
   display: inline-block;
   padding-left: 15px;
-  margin-left: 15px;
+  margin-left: 205px;
   line-height: 18px;
   color: #999;
   text-decoration: none;
@@ -98,16 +98,15 @@ nav a:first-child {
 
 /* footer */
 
-footer {
+.navbar {
   padding: 30px 0;
   clear: both;
-  font-size: 12px;
+  font-size: 18px;
   color: #ffffff;
   color: #cccccc;
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
 }
 
 h3, h2 {
@@ -214,4 +213,16 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* ineffective */ 
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #777777;
+  }
+}
+.navbar {
+  width: 100%;
+  padding: 20px;
 }
