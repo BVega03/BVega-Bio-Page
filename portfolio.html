@@ -1,81 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ben Vega's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+  <title>Portfolio | Ben Vega</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <div class="navbar">
-          <div class="container">
-            <ul class="float-right">
-              <li><a href="index.html">About</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div id="BV">
-              Ben Vega
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+    <header id="masthead">
+      <div class="container">
+        <a href="index.html" id="logo">Ben Vega</a>
+        <div class="container text-right">
+          <hr>
+          <div class="navbar-nav">
+            <strong><a class="nav-item nav-link" href="index.html">About</a></strong>
+            <strong><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></strong>
+            <strong><a class="nav-item nav-link" href="contact.html">Contact</a></strong>
           </div>
         </div>
       </div>
-      <div class="wrapper">
-        <section id="content">
-          <div class="row">
-            <div class="col-sm-12">
-              <div id="Portfolio">
-                Portfolio<br>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-3">
-              <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess" width="120" height="120">
-              <h3>Word Guess</h3>
-            </div>
-            <div class="col-sm-3">
-              <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" width="120" height="120">
-              <h3>RPG Game</h3>
-            </div>
-            <div class="col-sm-3">
-              <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game" width="120" height="120">
-              <h3>Trivia Game</h3>
-            </div>
-          </div>
+  </nav><br><br><br>
+
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+
+        <h3>Word Guess</h3>
       </div>
-      <div class="row">
-        <div class="col-sm-3">
-          <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget" width="120" height="120">
-          <h3>Rutgers Info Widget</h3>
-        </div>
-        <div class="col-sm-3">
-          <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors" width="120" height="120">
-          <h3>Rock Paper Scissors</h3>
-        </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
       </div>
-      </section>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <div id="footer">Copyright &copy;
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
       </div>
-    </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
   </div>
 
-  <br><br><br>
-
+  <nav class="navbar sticky-bottom navbar-light navbar center">
+    <div class="container text-center">
+      <p class="navbar-text col-md-12 col-sm-12 col-xs-12"><strong>Copyright &copy;</strong></p>
+    </div>
+  </nav>
 </body>
 
 </html>
